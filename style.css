@@ -1,0 +1,79 @@
+body{
+    padding: 30px;
+    text-align:center;
+    background-position: center;
+    background-color: white;
+    background-image: url('teenage-girl-writing-diary-.avif'); 
+    background-size:50%; 
+    background-repeat: no-repeat;
+}
+#entrydate{
+  background-color: antiquewhite;
+  align-self: center;
+   position:relative;
+   left: 650px;
+   top: -10px;
+   height: 30px;
+   border-radius: 10px;
+   margin-top: 10px;
+   border-color: deeppink;
+   border-width: 2px;
+   opacity: 0.6; 
+}
+
+#entrytitle{
+    animation:forwards;
+    background-color:antiquewhite;
+    align-self:center;
+    height: 30px;
+    font-size:large;
+    font-family:cursive;
+    border-radius: 10px;
+    position:relative;
+    left:-260px;
+     width: 500px;
+     border-color: deeppink; 
+     border-width: 2px;
+    opacity: 0.6;    
+}
+#entertext{
+    background-color:antiquewhite;
+    display:block;
+    margin: 30px auto;
+    border-radius: 10px;
+    height: 450px;
+    width: 900px;
+    font-size: medium;
+    font-family: cursive;
+    line-height: 10px; /* spacing between lines */
+  background-image: repeating-linear-gradient(
+   to bottom,
+    antiquewhite,
+    antiquewhite 28px,
+    pink 30px
+  );
+  border: 2px solid pink ;
+  outline: none;
+  resize: none;
+  border-color: deeppink;
+  opacity: 0.7; 
+}
+
+
+h1
+{
+    font-family:cursive;
+    color:deeppink;
+    position:relative;
+    top: -10px;
+}
+#mood{
+  position: relative;
+  right:-300px;
+
+}
+#moodLabel{
+  position: relative;
+  right:-300px;
+
+}

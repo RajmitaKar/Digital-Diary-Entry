@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+     <title>Diary Entry</title>
+</head>
+<body>
+    <label id="moodLabel" for="mood">Mood:</label>
+<select id="mood" onchange="applyMoodTheme()">
+  <option value="default">📝 Default</option>
+  <option value="happy">😊 Happy</option>
+  <option value="sad">😢 Sad</option>
+  <option value="angry">😠 Angry</option>
+  <option value="calm">🌿 Calm</option>
+  <option value="love">❤️ In Love</option>
+</select>
+  </nav>
+    <h1> My Diary</h1>
+    <section id="newEntryTab" class="active">
+    <input type="date"id="entrydate" placeholder="Data"> </textarea>
+    <textarea id="entrytitle" placeholder="enter the topic"></textarea>
+    <textarea id="entertext" placeholder="enter the thoughts"></textarea>
+    </section>
+    <section id="savedEntryTab">
+    <button onclick="saveEntry()">save</button>
+     <div id="entryDisplay"></div>
+     </section>
+    <script src="script.js"></script>
+</body>
+</html>
